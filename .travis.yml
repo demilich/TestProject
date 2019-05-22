@@ -54,6 +54,7 @@ script:
     ############################################################################
     # Build main and tests
     ############################################################################
+     - cd cpp
      - mkdir -p build
      - cd build
      - cmake ${CMAKE_OPTIONS} -DCMAKE_CXX_FLAGS=${CXX_FLAGS}

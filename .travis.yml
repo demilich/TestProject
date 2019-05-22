@@ -1,0 +1,6 @@
+matrix:
+    include:
+    - compiler: gcc
+      language: cpp
+      os: linux
+      
